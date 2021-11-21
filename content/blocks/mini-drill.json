@@ -24,3 +24,4 @@ consumes: {
 
 craftTime: 200
 outputItem: copper/5
+alwaysUnlocked: true

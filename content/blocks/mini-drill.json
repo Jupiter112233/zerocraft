@@ -1,0 +1,26 @@
+name: Mini Drill
+description: Mini Drill
+type: GenericCrafter
+category: production
+health: 150
+size: 2
+research: laser-drill
+
+liquidCapacity: 10
+hasPower: true
+
+drawer: DrawRotator
+updateEffect: smeltsmoke
+updateEffectChance: 0.15
+
+requirments: [
+	copper/120
+	silicon/40
+	titanium/100
+]
+consumes: {
+	power: 2
+}
+
+craftTime: 200
+outputItem: copper/5

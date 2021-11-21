@@ -2,12 +2,8 @@ name: Mini Drill
 description: Mini Drill
 type: Drill
 category: production
-health: 150
-size: 2
 research: laser-drill
-
-liquidCapacity: 10
-hasPower: true
+tier: 2
 
 drawer: DrawRotator
 updateEffect: smeltsmoke
@@ -23,5 +19,4 @@ consumes: {
 }
 
 craftTime: 200
-outputItem: copper/5
 alwaysUnlocked: true

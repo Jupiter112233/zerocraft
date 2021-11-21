@@ -1,6 +1,6 @@
 name: Mini Drill
 description: Mini Drill
-type: GenericCrafter
+type: Drill
 category: production
 health: 150
 size: 2

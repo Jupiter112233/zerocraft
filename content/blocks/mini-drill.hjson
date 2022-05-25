@@ -1,11 +1,17 @@
 name: Mini Drill
-description: Mini Drill
-type: Drill
-category: drill
-research: laser-drill
-tier: 2
+health: 200
+size: 1
 
-drawer: DrawRotator
+description: Mini Drill
+
+category: production
+research: laser-drill
+
+drawer: {
+type: DrawRotator
+drawSpinSprite: true
+drawSpinSprite: true
+}
 updateEffect: smeltsmoke
 updateEffectChance: 0.15
 
@@ -19,4 +25,5 @@ consumes: {
 }
 
 craftTime: 200
+craftEffect: mineBig
 alwaysUnlocked: true

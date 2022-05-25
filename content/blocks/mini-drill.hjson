@@ -1,29 +1,23 @@
-name: Mini Drill
-health: 200
-size: 1
-
-description: Mini Drill
-
-category: production
-research: laser-drill
-
 drawer: {
 type: DrawRotator
 drawSpinSprite: true
-drawSpinSprite: true
+spinSpeed: 7
 }
-updateEffect: smeltsmoke
-updateEffectChance: 0.15
-
-requirments: [
-	copper/120
-	silicon/40
-	titanium/100
-]
+health: 460
+size: 2
+outputItem: coal/2
+craftTime: 180
 consumes: {
-	power: 2
+power: 1.2
+liquid: water/0.2
 }
-
-craftTime: 200
 craftEffect: mineBig
-alwaysUnlocked: true
+liquidCapacity: 12
+updateEffect: pulverizeMedium
+hasPower: true
+category: production
+research: sand-mine
+requirements: [
+leaded-copper/180
+graphite/80
+]

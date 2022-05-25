@@ -16,7 +16,7 @@ liquidCapacity: 12
 updateEffect: pulverizeMedium
 hasPower: true
 category: production
-research: sand-mine
+research: laser-drill
 requirements: [
 copper/180
 graphite/80

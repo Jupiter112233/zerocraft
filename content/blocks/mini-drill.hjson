@@ -18,6 +18,6 @@ hasPower: true
 category: production
 research: sand-mine
 requirements: [
-leaded-copper/180
+copper/180
 graphite/80
 ]
